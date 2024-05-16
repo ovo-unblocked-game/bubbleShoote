@@ -26,28 +26,6 @@ body {
   width: 60%;
 }
 
-#top_bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 70%;
-  height: 150px;
-  color: #fff;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  text-align: center;
-  opacity: 1;
-}
 
 #game {
   position: absolute;
@@ -62,7 +40,6 @@ body {
 #board {
   position: absolute;
   left: 120px;
-  top: 0;
   width: 1560px;
   height: 700px;
 }
