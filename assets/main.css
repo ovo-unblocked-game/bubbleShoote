@@ -27,16 +27,6 @@ body {
 }
 
 
-#game {
-  position: absolute;
-  left: 0;
-  top: 150px;
-  width: 100%;
-  height: 930px;
-  clip: auto;
-  overflow: hidden;
-}
-
 #board {
   position: absolute;
   left: 120px;
