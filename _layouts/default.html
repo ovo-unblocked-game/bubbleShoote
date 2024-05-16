@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>{% include head.html %}</head>
+
+<body>
+  {{ content }}
+    <div id="page">
+        <div id="top_bar">
+            <h1>Remaining Ammo:</h1>
+            <h2 id="bubbles_remaining">70</h2>
+            <h3>Planets Destroyed:</h2>
+            <h4 id="score">0</h4>
+            <a class="but_exit button exit_during_game" href="http://marisakaupert.com/muttboard.html">
+                Exit
+            </a>
+
+        </div>
+        <div id="game">
+            <div id="board"></div>
+        </div>
+        <div id="footer_bar"></div>
+
+        <div id="start_game">
+           <img class="dialog" src="{{ site.github.baseurl }}/assets/frontScreen.png">
+            <div class="but_start_game button">
+                Play
+            </div>
+            <a class="but_start_game button exit_start_but" href="http://marisakaupert.com/muttboard.html">
+                Exit
+            </a>
+        </div>
+
+          <div id="end_game">
+           <img class="dialog" src="{{ site.github.baseurl }}/assets/endScreen.png">
+           <h1>Score:</h1>
+           <h2>0</h2>
+            <div class="but_play_again button">
+                Play Again
+            </div>
+            <a class="but_exit button" href="http://marisakaupert.com/muttboard.html">
+                Exit
+            </a>
+        </div>
+
+        <div id="next_level">
+           <img class="dialog" src="{{ site.github.baseurl }}/assets/levelCompleteScreen.png">
+           <h1>Score:</h1>
+           <h2>0</h2>
+            <div class="but_play_again button">
+                Next Level
+            </div>
+            <a class="but_exit button" href="http://marisakaupert.com/muttboard.html">
+                Exit
+            </a>
+        </div>
+
+        <h1 class="instructions">Clear most of the board to move to the next level!</h1>
+
+        <img class="charlie" src="{{ site.github.baseurl }}/assets/charlie.png">
+        <img class="shadow" src="{{ site.github.baseurl }}/assets/shadow.png">
+        <img class="cannon" src="{{ site.github.baseurl }}/assets/cannon.png">
+        <img class="base" src="{{ site.github.baseurl }}/assets/base.png">
+        <img class="land" src="{{ site.github.baseurl }}/assets/land.png">
+    </div>
+</body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+</script>
+<script src="{{ site.github.baseurl }}/assets/js/bubble.js"></script>
+<script src="{{ site.github.baseurl }}/assets/js/ui.js"></script>
+<script src="{{ site.github.baseurl }}/assets/js/board.js"></script>
+<script src="{{ site.github.baseurl }}/assets/js/collision-detector.js"></script>
+<script src="{{ site.github.baseurl }}/assets/js/jquery.kaboom.js"></script>
+<script src="{{ site.github.baseurl }}/assets/js/game.js"></script>
+<script type="text/javascript">
+    console.log("Starting the game");
+    $(function () {
+        var game = new BubbleShoot.Game();
+        game.init();
+
+    });
+</script>
+<script src="{{ site.github.baseurl }}/assets/js/timer.js"></script>
+
+</html>
