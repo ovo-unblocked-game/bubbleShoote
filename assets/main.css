@@ -73,13 +73,6 @@ body {
   transform: translateX(-1%);  
 }
 
-#start_game {
-  height: 1080px;
-  width: 71%;
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.7);
-  z-index: 200000;
-}
 
 .but_start_game {
   margin-left: 19%;
