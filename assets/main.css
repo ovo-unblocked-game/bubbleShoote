@@ -119,7 +119,7 @@ body {
   transform-origin: center center;
 }
 
-.exit_start_but {
+. _start_but {
   left: 50%;
   -webkit-transform: translateX(-50%) scale(1);
   -ms-transform: translateX(-50%) scale(1);
@@ -154,7 +154,7 @@ body {
   transform-origin: center center;
 }
 
-.but_exit {
+.but_  {
   position: absolute;
   left: 59%;
   -webkit-transform: translateX(-50%) scale(1);
@@ -450,7 +450,7 @@ h4 {
   display: none;
 }
 
-.exit_during_game {
+. _during_game {
   top: 20px;
   left: 1800px;
   font-size: 30px;

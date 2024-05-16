@@ -1,6 +1,6 @@
 var startCount = function() {
     return setTimeout(function () {
-        window.location.href = 'http://marisakaupert.com/muttboard.html';
+        window.location.href = '#';
     }, 60000000);
 }
 
